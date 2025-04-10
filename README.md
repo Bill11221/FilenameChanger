@@ -9,11 +9,6 @@ FilenameChanger 是一个基于 Qt Widgets 和 C++17 的 Windows 桌面应用程
 - **错误提示**：针对文件夹不存在、未选择文件夹等异常情况，给出友好的错误提示信息。
 - **跨平台部署**：基于 Qt 开发，使用 windeployqt 工具可方便地打包所需的 DLL 文件，构建纯 GUI 应用程序，无黑色 CMD 窗口。
 
-## 截图
-
-![程序截图](screenshot.png)
-*(请将截图文件命名为 screenshot.png 并放在仓库中)*
-
 ## 目录结构
 FilenameChanger/ ├── README.md ├── filenamechanger.pro ├── main.cpp ├── mainwindow.cpp ├── mainwindow.h └── (其他构建文件)
 
